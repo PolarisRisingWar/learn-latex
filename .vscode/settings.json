@@ -1,0 +1,8 @@
+{
+    "[latex]": {
+        "editor.wordWrap": "on"
+    },
+    "[tex]": {
+        "editor.wordWrap": "on"
+    }
+}
