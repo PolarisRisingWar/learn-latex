@@ -1,0 +1,21 @@
+\documentclass[oneside]{book}
+
+\usepackage{titlesec}
+\usepackage{natbib}
+
+% format the bibliography title
+\renewcommand{\bibsection}{
+    \titleformat{\chapter}[block]
+    {\normalfont\fontsize{14pt}{14pt}\bfseries\centering}{}{0pt}{}  % resize and centering
+    \titlespacing*{\chapter}{0pt}{17pt}{16.5pt}
+    \chapter*{\bibname}
+}
+
+\begin{document}
+
+We reference one of the articles in bibliography as \cite{zhu-etal-2021-twag}.
+
+\bibliographystyle{plain}
+\bibliography{references}
+
+\end{document}
