@@ -1,0 +1,25 @@
+\documentclass[oneside]{book}
+
+\usepackage{natbib}
+\usepackage{setspace}
+
+\let\oldthebibliography\thebibliography
+\let\endoldthebibliography\endthebibliography
+\renewenvironment{thebibliography}[1]{
+  \begin{oldthebibliography}{#1}
+  \setlength{\parskip}{0.1\baselineskip}
+  \setlength{\itemsep}{0.1\baselineskip}
+  \setstretch{1.3}
+}{
+  \end{oldthebibliography}
+}
+
+
+\begin{document}
+
+We reference one of the articles in bibliography as \cite{zhu-etal-2021-twag}.
+
+\bibliographystyle{plain}
+\bibliography{references}
+
+\end{document}
