@@ -1,14 +1,14 @@
 \documentclass{book}
 
-\usepackage{titlesec}  %提供分节命令接口
+\usepackage{titlesec}  %providing an interface to sectioning commands
 
-% 设置章标题样式
+% format the chapter titles
 \titleformat{\chapter}[block]
-  {\fontsize{14pt}{14pt}\bfseries} % 14pt加粗
-  {\thechapter\ } % 章节编号后跟一个空格
-  {0pt} % 标题与编号间距
-  {} % 可以在这里添加额外的格式命令
-\titlespacing*{\chapter}{0pt}{17pt}{17pt} % 段前17磅，段后17磅
+  {\fontsize{14pt}{14pt}\bfseries} % 14pt + boldface
+  {\thechapter\ } % the way the chapter number is displayed: 1 Chpter Title
+  {0pt}
+  {}
+\titlespacing*{\chapter}{0pt}{17pt}{17pt} % left, top, bottom
 
 \begin{document}
 
