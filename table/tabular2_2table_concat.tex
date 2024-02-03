@@ -1,0 +1,37 @@
+\documentclass{article}
+\usepackage{booktabs,threeparttable}
+
+\begin{document}
+
+\begin{table}
+    \centering
+    \begin{tabular}{lc}
+        \hline
+        \textbf{Command} & \textbf{Output} \\
+        \hline
+        \verb|{\"a}|     & {\"a}           \\
+        \verb|{\^e}|     & {\^e}           \\
+        \verb|{\`i}|     & {\`i}           \\
+        \verb|{\.I}|     & {\.I}           \\
+        \verb|{\o}|      & {\o}            \\
+        \verb|{\'u}|     & {\'u}           \\
+        \verb|{\aa}|     & {\aa}           \\\hline
+    \end{tabular}
+    \begin{tabular}{lc}
+        \hline
+        \textbf{Command} & \textbf{Output} \\
+        \hline
+        \verb|{\c c}|    & {\c c}          \\
+        \verb|{\u g}|    & {\u g}          \\
+        \verb|{\l}|      & {\l}            \\
+        \verb|{\~n}|     & {\~n}           \\
+        \verb|{\H o}|    & {\H o}          \\
+        \verb|{\v r}|    & {\v r}          \\
+        \verb|{\ss}|     & {\ss}           \\
+        \hline
+    \end{tabular}
+    \caption{Example commands for accented characters, to be used in, \emph{e.g.}, Bib\TeX{} entries.}
+    \label{tab:accents}
+\end{table}
+
+\end{document}
