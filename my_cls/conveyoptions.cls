@@ -5,7 +5,7 @@
 
 \ProcessOptions\relax
 
-\LoadClass{ctexbook}  %load the article class
+\LoadClass{ctexbook}
 
 \newif\if@showdate
 \@showdatetrue  %set the default value to true
